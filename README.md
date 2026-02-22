@@ -4,6 +4,8 @@ Duender is a conversion project that allows you to turn two old Creality Ender-3
 
 The original goal was to reuse as many original components as possible and minimize the number of additional parts that need to be purchased.
 
+![Duender](Images/Duender_Image.png)
+
 ---
 
 ## Project history
