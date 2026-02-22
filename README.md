@@ -69,54 +69,41 @@ Although originally created from Creality Ender-3 V1 printers, it has now been c
 
 ## Available versions
 
-This repository contains files for three base versions of Duender:
-
-- Wheel version  
-- MGN9H version  
-- MGN12H version  
+This repository contains files for three base versions of Duender: the wheel version, the MGN9H version, and the MGN12H version.
 
 Unlike older published versions, these versions use M3 pins for all kinematic idlers. Previously, standard screws were used.
 
-Testing has shown that pin-based versions are more stable and eliminate the common CoreXY issue of belt drift.
+Testing has shown that pin-based versions work more reliably and eliminate the common Duender issue (as well as many other CoreXY printers) — belt drift.
 
 ---
 
 ### MGN9H version
 
-After many tests and experiments, I concluded that the MGN9H version on XY axes is the most optimal configuration.
+After many tests and experiments, I concluded that the most optimal configuration is the MGN9H version on the XY axes.
 
-In this setup, I achieved Input Shaping results of around real **18K acceleration**, assuming:
-
-- Proper assembly  
-- High rigidity  
-- No mechanical play  
-- No binding  
+In this configuration, I achieved the best Input Shaping results — around real 18K acceleration, assuming everything is assembled properly, rigidly, and without play or binding anywhere.
 
 ---
 
 ### MGN12H version
 
-The MGN12H version works reliably but shows slightly lower acceleration results (around **15K**, under proper assembly conditions).
+The MGN12H version works reliably, but test results show slightly lower acceleration values — around 15K, again assuming high-quality assembly.
 
 ---
 
 ### Wheel version
 
-The wheel version works, but I recommend considering it as a temporary option.
+The wheel version works, but I recommend considering it as a temporary solution.
 
-It can achieve around **12K stable acceleration**, but wheels have clear drawbacks:
+It can achieve around 12K stable acceleration, but wheels have obvious disadvantages: they are difficult to align precisely, they wear over time, and they require re-adjustment or replacement.
 
-- Harder to align precisely  
-- Wear over time  
-- Require periodic adjustment or replacement  
+Unlike the earliest Duender wheel versions, this version requires printing the MGN9H parts and manufacturing carriages with wheel adapters.
 
-Unlike the earliest wheel versions, this version requires printing MGN9H parts and manufacturing wheel adapter carriages.
+The Y and Z axis carriages should ideally be cut from 3 mm aluminum. They can be printed, but this significantly reduces the rigidity of the entire kinematics.
 
-Y and Z carriages should ideally be cut from 3 mm aluminum. They can be printed, but this significantly reduces kinematic rigidity.
+Later, when upgrading to MGN9H, you will not need to reprint all the parts.
 
-When upgrading later to MGN9H, you will not need to reprint all parts.
-
-The wheel version has not yet been fully tested.
+This wheel version has not yet been fully tested.
 
 ---
 
@@ -138,17 +125,9 @@ Huge thanks to TallothEndill and everyone who contributed.
 
 At the moment, the manual is still in progress:
 
-*(Insert manual link here)*
+*[(Duender Manual)](https://drive.google.com/file/d/1r_e_1Pna0u54sdXipSJhN7h276Pe2rJI/view)*
 
 Once finalized, it will be permanently integrated into this repository.
-
----
-
-## BOM
-
-Full BOM spreadsheet:
-
-https://docs.google.com/spreadsheets/d/1xkOzb10DBJzalW4n1tYroh-m_ZFsTQipC1BpUh5ZMWY/edit?gid=1290815756#gid=1290815756
 
 ---
 
